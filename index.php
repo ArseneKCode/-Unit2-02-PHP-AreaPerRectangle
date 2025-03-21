@@ -21,6 +21,9 @@
 			echo "<p>Length = $length cm<br>Width = $width cm</p>"; ?>		
 		<?php 
 		 echo "<p>The area of a rectangle with dimensions $length cm x $width cm = " . ($length * $width) . "cm<sup>2</sup></p>";  
-		  ?>  
+		  ?>
+          <?php
+          echo "<p>The perimeter of a rectangle with dimensions $length cm x $width cm = " . 2 * ($length * $width) .
+          ?>
 	</body>
 </html>
